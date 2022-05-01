@@ -6,8 +6,30 @@
 ## Results
 
 ### In order to 
-![Conf Mtrx](nro_cm.png)![Imbl Rprt](nro_cri.png)
- - **Naive Random Oversampling**.
+
+ - **Naive Random Oversampling:**
+
+![Conf Mtrx](NRO_cm.png)![Imbl Rprt](NRO_cri.png)
+
+ - **SMOTE Oversampling:**
+
+![Conf Mtrx](SMOTE_cm.PNG)![Imbl Rprt](SMOTE_cri.PNG)
+
+ - **Undersampling:**
+
+![Conf Mtrx](US_cm.png)![Imbl Rprt](US_cri.png)
+
+ - **SMOTEENN:**
+
+![Conf Mtrx](SMOTEEN_cm.png)![Imbl Rprt](SMOTEEN_cri.png)
+
+ - **Random Forest Classifier:**
+
+![Conf Mtrx](RFC_cm.PNG)![Imbl Rprt](RFC_cri.PNG)
+
+ - **Easy Ensamble Classifier:**
+
+![Conf Mtrx](EEC_cm.png)![Imbl Rprt](EEC_cri.png)
 
 ## Summary
 
