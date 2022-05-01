@@ -10,7 +10,7 @@
 ### "Recall (Sensativity)" is measured by getting the number of True Positives. Then the True Positive number is divided by iteself and added to the number of False Negatives, when something is actually True but predicted to be False.
 ### "Accuracy Score" can be used to determine the performance of a classification model. It is measured by adding the True Positive rate added to the True Negative rate and dividing it by two. True Negatives are when something is predicted to be False and is actually False. 
 
- - **Naive Random Oversampling:** With Random Oversampling we balance the dataset by adding randomly adding data from the minority class to the training set until the major and minor classes have the same amount of data to train on. Here, for the high risk loans, we have a Precision score of 1%, a Recall score of 60%, and an Accuracy Score of 64%. 
+ - **Naive Random Oversampling:** With Random Oversampling we balance the dataset by randomly adding data from the minority class to the training set until the major and minor classes have the same amount of data to train on. Here, for the high risk loans, we have a Precision score of 1%, a Recall score of 60%, and an Accuracy Score of 64%. 
 
 ![Conf Mtrx](NRO_cm.png)![Imbl Rprt](NRO_cri.png)
 
@@ -36,4 +36,4 @@
 
 ## Summary
 
-### Looking 
+### Looking at the results above we can attempt to determine which of the models suits our needs the best. Easy Ensamble has the highest accuracy score at 93%. I don't however believe this is the model that should be used. For loan applications I think Precision is more important than Recall. The Random Forest classifier has a Precision score of 73% far higher then any of the other models. It also has a Recall score of 64% which is second only to the Easy Ensamble, so I feel Random Forest would be the best model to use.
