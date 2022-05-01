@@ -7,7 +7,7 @@
 
 ### In order to understand the results from applying the machine learning models to our dataset we will be looking at some specific metrics. These metrics are...
 ### "Precision", or positive predictive value. Precision is measured by getting the number of True Positives, when something is actually true and also predicted to be true. Then the True Positive number is divided by iteself added to the number of False Positives, when something is actually False but predicted to be True. 
-### "Recall (Sensativity)" is measured
+### "Recall (Sensativity)" is measured by getting the number of True Positives. Then the True Positive number is divided by iteself added to the number of False Negatives, when something is actually True but predicted to be False.
 
  - **Naive Random Oversampling:**
 
